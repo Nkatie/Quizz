@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mikatekonkatie.quizz.Main2Activity">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:text="Best dramatic soapie in Mzansi"
+                    android:textColor="#332200"/>
+
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:id="@+id/grpSop"
+                    android:layout_height="match_parent" >
+
+                    <RadioButton
+                        android:id="@+id/radscand"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Scandal" />
+
+                    <RadioButton
+                        android:id="@+id/radgener"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Generations" />
+
+                    <RadioButton
+                        android:id="@+id/radskeem"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Skeem Saam" />
+
+                    <RadioButton
+                        android:id="@+id/raduzal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Uzalo" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Which Series is more romentic "
+                    android:textColor="#332200"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:id="@+id/grpRometic"
+                    android:layout_height="match_parent" >
+
+                    <RadioButton
+                        android:id="@+id/radhave"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="The have and the have not" />
+
+                    <RadioButton
+                        android:id="@+id/radempire"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="The empire" />
+
+                    <RadioButton
+                        android:id="@+id/radloving"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="If loving you is wrong" />
+
+                    <RadioButton
+                        android:id="@+id/radmary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Being Mary Jane" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Best male actor in Mzansi"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textColor="#332200"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:id="@+id/grpman"
+                    android:layout_height="match_parent" >
+
+                    <RadioButton
+                        android:id="@+id/radmenzi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Menzi Ngubene" />
+
+                    <RadioButton
+                        android:id="@+id/radsilo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Silo Maake" />
+
+                    <RadioButton
+                        android:id="@+id/radkk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MacDonald Ndou" />
+
+                    <RadioButton
+                        android:id="@+id/radshaun"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Shaun Fhegurson" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Best female actor in Mzansi"
+                    android:textColor="#332200"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:id="@+id/grpwoman"
+                    android:layout_height="match_parent" >
+
+                    <RadioButton
+                        android:id="@+id/radlelet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Leleti Khumalo" />
+
+                    <RadioButton
+                        android:id="@+id/radkat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Katlego Dankie" />
+
+                    <RadioButton
+                        android:id="@+id/radconny"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Conny Feghurson" />
+
+                    <RadioButton
+                        android:id="@+id/radsindi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Sindi Dathu" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="154dp"
+                        android:layout_height="wrap_content"
+                        android:onClick="view"
+                        android:background="#cc6699"
+                        android:text="View" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="25dp"
+                        android:onClick="back"
+                        android:textStyle="bold"
+                        android:textColor="#332200"
+                        android:text="Back" />
+                </RadioGroup>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+

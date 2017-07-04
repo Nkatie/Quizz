@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mikatekonkatie.quizz.Main3Activity">
+
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2015/2016 PSL player of the season"
+                    android:textColor="#332200"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/grppsl"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/radErus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ERUSMUS" />
+
+                    <RadioButton
+                        android:id="@+id/radMath"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MATHOHO" />
+
+                    <RadioButton
+                        android:id="@+id/radMasan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="BILLAT" />
+
+                    <RadioButton
+                        android:id="@+id/raddoll"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DOLLY" />
+                </RadioGroup>
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PSL players from neighbourhood countries"
+                    android:textColor="#332200"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+                <RadioGroup
+                    android:id="@+id/grpfor"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <RadioButton
+                        android:id="@+id/radkats"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="KATSANDE" />
+
+                    <RadioButton
+                        android:id="@+id/radmuso"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MUSONA" />
+
+                    <RadioButton
+                        android:id="@+id/radndor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="NDORO" />
+
+                    <RadioButton
+                        android:id="@+id/radchira"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="CHIRAMBANDARI" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Which team in Africa is the best"
+                    android:textColor="#332200"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/grpAfrica"
+                    android:layout_weight="1" >
+
+                    <RadioButton
+                        android:id="@+id/raddrc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DRC" />
+
+                    <RadioButton
+                        android:id="@+id/radNig"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Nigeria" />
+
+                    <RadioButton
+                        android:id="@+id/radZam"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Zambia" />
+
+                    <RadioButton
+                        android:id="@+id/radGhana"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Ghana" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Which one is the big stadium in SA"
+                    android:textColor="#332200"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+                <RadioGroup
+                    android:id="@+id/grpstad"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <RadioButton
+                        android:id="@+id/radfnb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Soccer City" />
+
+                    <RadioButton
+                        android:id="@+id/radgpoint"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Green Point" />
+
+                    <RadioButton
+                        android:id="@+id/radmoses"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Moses Mabida" />
+
+                    <RadioButton
+                        android:id="@+id/radnmbay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Nelson Mandela Bay" />
+                </RadioGroup>
+
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="168dp"
+                    android:layout_height="50dp"
+                    android:background="#cc6699"
+                    android:onClick="display"
+                    android:text="display"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="146dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textColor="#332200"
+                    android:onClick="back"
+                    android:text="Back" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+
